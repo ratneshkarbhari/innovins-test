@@ -1,0 +1,35 @@
+I. Create a form with fields:
+	product name
+	description
+	price
+
+	On submit, data should be saved in database.
+
+II. Create a new page with list of all data saved in database with update and delete option for each data.
+III. On click of update, form should open with values of selected data pre-filled and on submit the particular data should be updated.
+IV. On delete, data should be deleted from database.
+
+V. Create a table employee with fields id, name, employee code. Create another table employee_salary with fields employee_id, salary. Write a single query to fetch employee details with its salary.
+
+VI. $a = '{
+        "Currency":"INR",
+        "BaseFare":"10800",
+        "Tax":"1008",
+        "YQTax":"0",
+        "AdditionalTxnFee":"0",
+        "AdditionalTxnFeeOfrd":"0",
+        "AdditionalTxnFeePub":"0",
+        "OtherCharges":"215.66",
+        "Discount":"0",
+        "PublishedFare":"12023.66",
+        "CommissionEarned":"108",
+        "IncentiveEarned":"0",
+        "OfferedFare":"11915.66",
+        "TdsOnCommission":"21.6",
+        "TdsOnIncentive":"0",
+        "ServiceFee":"0"
+      }'
+	  
+ Q From the above string, display Fare Breakup including BaseFare, Tax and OtherCharges only
+ Q Add 10 % discount on BaseFare and display it in the Fare Breakup
+ Q Display the total after the Fare Breakup
